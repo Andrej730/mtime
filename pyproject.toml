@@ -1,0 +1,10 @@
+[project]
+name = "mtime"
+version = "0.1.0"
+description = "Measure time - a simple command timing utility"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+[project.scripts]
+mtime = "mtime:main"
